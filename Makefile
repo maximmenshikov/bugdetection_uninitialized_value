@@ -4,7 +4,7 @@
 all: bugdetection_exec
 
 bugdetection_exec: main.o
-	gcc main.o -lpthread -o bugdetection_exec
+	gcc main.o -o bugdetection_exec
 
 main.o:
 	gcc -c main.cpp
