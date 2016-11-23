@@ -1,2 +1,2 @@
 cppcheck --version
-cppcheck main.cpp
+cppcheck --enable=all main.cpp
